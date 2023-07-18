@@ -22,7 +22,7 @@ nav a{
     color:#1d1d1d;
     border-bottom: 2px solid #1d1d1d;
     text-decoration:none;
-    margin:10px 0 10px 0;
+    margin:0 10px 0 10px;
 }
 
 section, header{
@@ -30,14 +30,75 @@ section, header{
     text-align: center;
 }
 
-p,nav{
+.paragrafo,nav{
     margin:10px auto 10px auto;
     font-size:18px;
 }
 
-p{
+.paragrafo{
     width:980px;
     text-align:justify;
     line-height:28px;
 }
+
+.banner{
+    margin-top:50px;
+    padding-top:0;
+}
+
+.txt-destaque-blue{
+    color:#1d80c1;
+    font-weight:bold;
+}
+
+.txt-destaque-yellow{
+    color:#fff81b;
+    font-weight:bold;
+}
+
+#titulo-principal{
+    color:#1d1d1d;
+    margin-bottom:5px;
+
+}
+
+#subtitulo{
+    font-weight: normal;
+    margin-top:0;
+    color:#1c81c0
+}
+
+#img-about{
+    width: 450px;
+}
+
+.bg-secao{
+    background-color:#1d80c1;
+}
+ .headline{
+    color:#ffffff;
+    font-size:28px;
+    line-height: 42px;
+ }
+
+ #service .paragrafo{
+    color:#fff;
+    line-height:42px;
+    font-size:22px;
+    text-align:center;
+    width: 700px;
+ }
+
+ #service #list-service{
+    margin:40px auto 40px auto;
+    width:135px;
+ }
+
+ #service #list-service li{
+    color:#fff;
+    line-height:42px;
+    text-align:left;
+    font-size:22px;
+ }
+
 
