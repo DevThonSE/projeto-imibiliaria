@@ -18,11 +18,15 @@ nav{
 }
 
 nav a{
-    font-size:18px;
     color:#1d1d1d;
     border-bottom: 2px solid #1d1d1d;
-    text-decoration:none;
     margin:0 10px 0 10px;
+}
+
+a{
+    font-size:18px;
+    color:#fff;
+    text-decoration:none;
 }
 
 section, header{
@@ -94,10 +98,10 @@ section, header{
     width:135px;
  }
 
- #service #list-service li{
+ .list li{
     color:#fff;
     line-height:42px;
-    text-align:left;
+    text-align:center;
     font-size:22px;
  }
 
